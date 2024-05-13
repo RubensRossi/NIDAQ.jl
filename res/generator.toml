@@ -1,0 +1,8 @@
+[general]
+library_name = "nidaqmx"
+output_file_path = "./nidaqmx.jl"
+# output_api_filepath = "./functions_V23.0.jl"
+# output_common_file_path = "./common.jl"
+module_name = "NIDAQ"
+# jll_pkg_name = "Modbus"
+export_symbol_prefixes = ["CX", "DAQmx"]
